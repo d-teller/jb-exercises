@@ -1,0 +1,7 @@
+index.html:|
+<html>
+<h1>Yayy! My Custom Nginx Page!</h1>
+</br>
+</html
+<h1>This web page is housed on a Pod running Nginx</h1>
+</html 
