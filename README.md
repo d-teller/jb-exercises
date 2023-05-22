@@ -1,4 +1,4 @@
-# jb-exercises
+# JB - Exercises
 Exercises for JB students
 
 ## Episode 1 - Some Light Kubernertes.
