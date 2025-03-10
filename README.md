@@ -9,7 +9,7 @@
 1. Create a simple Spring Boot application or use an existing one
 2. Write a Dockerfile with two stages:
    - Stage 1: Use `maven:3.8-openjdk-17` as the build image
-   - Stage 2: Use `openjdk:17-jre-slim` as the production image
+   - Stage 2: Use `openjdk:11-ea-17-jre-slim` as the production image
 
 3. In the first stage, copy your source code, run Maven to build the JAR
 4. In the second stage, copy only the built JAR from the first stage
