@@ -1,0 +1,35 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1.5vmin);
+    color: white;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #3a3f4b;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  pre {
+    background-color: #1e2127;
+    border-radius: 4px;
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+    overflow-x: auto;
+    max-width: 100%;
+  }

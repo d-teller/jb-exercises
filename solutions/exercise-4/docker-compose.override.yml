@@ -1,0 +1,28 @@
+# Development-specific overrides
+version: '3.8'
+
+services:
+  frontend:
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - REACT_APP_API_URL=http://localhost:5000
+    command: npm run start
+
+  api:
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./api:/app
+    environment:
+      - FLASK_ENV=development
+      - FLASK_DEBUG=1
+    command: python app.py --debug
+
+  database:
+    ports:
+      - "5432:5432"
